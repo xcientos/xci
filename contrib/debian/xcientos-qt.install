@@ -1,0 +1,6 @@
+usr/local/bin/xcientos-qt usr/bin
+share/pixmaps/xcientos32.xpm usr/share/pixmaps
+share/pixmaps/xcientos16.xpm usr/share/pixmaps
+share/pixmaps/xcientos128.png usr/share/pixmaps
+debian/xcientos-qt.desktop usr/share/applications
+debian/xcientos-qt.protocol usr/share/kde4/services/

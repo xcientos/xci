@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=XCIENTOS Core
+Comment=XCIENTOS P2P Cryptocurrency
+Comment[fr]=XCIENTOS, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=XCIENTOS, eşten eşe kriptografik sanal para birimi
+Exec=xcientos-qt %u
+Terminal=false
+Type=Application
+Icon=xcientos128
+MimeType=x-scheme-handler/xcientos;
+Categories=Office;Finance;
+StartupWMClass=XCIENTOS-qt

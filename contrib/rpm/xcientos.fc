@@ -1,0 +1,8 @@
+/usr/bin/xcientos-cli		--	gen_context(system_u:object_r:xcientos_exec_t,s0)
+/usr/sbin/xcientosd		--	gen_context(system_u:object_r:xcientos_exec_t,s0)
+/usr/lib(64)?/xcientos/xcientosd		--	gen_context(system_u:object_r:xcientos_exec_t,s0)
+
+/etc/xcientos(/.*)?		gen_context(system_u:object_r:xcientos_conf_t,s0)
+/var/lib/xcientos(/.*)?		gen_context(system_u:object_r:xcientos_var_lib_t,s0)
+
+(/var)?/run/xcientosd(/.*)?   gen_context(system_u:object_r:xcientos_var_run_t,s0)
